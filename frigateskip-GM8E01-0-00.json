@@ -1,0 +1,19 @@
+{
+  "description": "Starts samus on Tallon IV, skipping the Pirate Frigate. Only works on GM8E01 0-00.",
+  "patches": [
+    {
+      "type": "BinaryPatch",
+      "description": "Frigate Skip pt 1",
+      "filename": "default.dol",
+      "start": "0x1ff10",
+      "newData": "OCEAEE6AACA8YE1MPIA58w=="
+    },
+    {
+      "type": "BinaryPatch",
+      "description": "Frigate Skip pt 2",
+      "filename": "default.dol",
+      "start": "0x1ff20",
+      "newData": "OKNWTDhtoPA4BN4o"
+    }
+  ]
+}

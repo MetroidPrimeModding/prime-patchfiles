@@ -1,0 +1,88 @@
+{
+  "description": "Example patchfile. SJ -> Missile (model only), add an extra item (respawns, gives Plasma, no text or anything)",
+  "patches": [
+    {
+      "type": "ScriptObject",
+      "description": "Turn SJ into a missle, looks-wise",
+      "filename": "c44e7a07.MREA",
+      "typ": "Pickup",
+      "id": "0x40007",
+      "objectPatch": {
+        "0x0C": "2d7e6590.CMDL",
+        "0x0D": {
+          "animANCS": "a9b8e446.ANCS",
+          "character": 0,
+          "defaultAnim": 0
+        },
+        "0x11": "0deb9456.PART"
+      }
+    },
+
+    {
+      "type": "ScriptObject",
+      "description": "Add a new 'missile' that's very tall and gives Plasma Beam",
+      "filename": "c44e7a07.MREA",
+      "typ": "Pickup",
+      "id": "0x429387",
+      "add": true,
+      "layer": 0,
+      "objectPatch": {
+        "0x00": "New Item",
+        "0x01": {
+          "x": -335,
+          "y": 451.5,
+          "z": -23
+        },
+        "0x03": {
+          "x": 1,
+          "y": 1,
+          "z": 3
+        },
+        "0x04": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "0x06": "0x03",
+        "0x07": 1,
+        "0x08": 1,
+        "0x0C": "2d7e6590.CMDL",
+        "0x0D": {
+          "animANCS": "a9b8e446.ANCS",
+          "character": 0,
+          "defaultAnim": 0
+        },
+        "0x0E": {
+          "0x00": {
+            "0x00": true,
+            "0x01": 1.0,
+            "0x03": 1.0,
+            "0x04": 20.0,
+            "0x05": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "0x06": true,
+            "0x08": "0x04",
+            "0x09": "0x04"
+          },
+          "0x01": {
+            "0x00": "f5d79a23.SCAN"
+          },
+          "0x06": true,
+          "0x07": 1.0,
+          "0x08": 1.0,
+          "0x09": {
+            "0x02": "0xF"
+          },
+          "0x0C": true,
+          "0x0D": 1.0
+        },
+        "0x0F": true,
+        "0x11": "0deb9456.PART"
+      }
+    }
+  ]
+}
