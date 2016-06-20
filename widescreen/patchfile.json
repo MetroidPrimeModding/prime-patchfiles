@@ -1,0 +1,121 @@
+{
+    "description": "Metroid Prime Widescreen Hack",
+    "author": "Parax",
+    "patches": [
+        {
+            "type": "BinaryPatch",
+            "description": "Widescreen .DOL culling",
+            "filename": "default.dol",
+            "start": "0x342208",
+            "newData": "w0LLeA=="
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -120,36 +120,36 @@\n AAAAAAAAAAAAAAD+\n-AAAA\n+PXCk\n AAAAAAAAAAAAAAAA\n",
+            "filename": "b7a308bd.FRME",
+            "description": "Helmet"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -119,37 +119,37 @@\n AAAAAAAAAAAAAAAD\n-+AAAA\n+9euFI\n AAAAAAAAAAAAAAAA\n@@ -6115,35 +6115,35 @@\n AAAAAAAAAAAAAAAA\n-AAA\n+BAg\n AAAAAAAAAAAAAA/g\n@@ -9118,34 +9118,34 @@\n AAAAAAAAAAAAAAAA\n-AA\n+MC\n AAAAAAAAAAAAAAD+\n@@ -11647,13 +11647,13 @@\n AAAM\n-FqEpu\n+GVCU2\n 1hje\n@@ -11919,13 +11919,13 @@\n AAAM\n-FnCzQ\n+GThZo\n +DKY\n",
+            "filename": "854ef9b3.FRME",
+            "description": "Front-End Options Menu"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -119,37 +119,37 @@\n AAAAAAAAAAAAAAAD\n-+AAAA\n+9euFI\n AAAAAAAAAAAAAAAA\n@@ -1441,35 +1441,35 @@\n AAAAAAAAAAAAAAAA\n-AAA\n+wIg\n AAAAAAAAAAAAAP4A\n@@ -2743,35 +2743,32 @@\n IAAAAAAAAAAAAAAQ\n-AAA\n AAAAAAAAAAAAAAAA\n@@ -2773,32 +2773,35 @@\n AAAAAAAAAAAAAAAA\n+wIg\n AAAAAAAA/35MDP4A\n@@ -4395,12 +4395,12 @@\n AAAM\n-FqC1\n+GXBa\n +1hj\n@@ -4667,13 +4667,13 @@\n AAAM\n-FnA/g\n+GVgfw\n +DKY\n",
+            "filename": "5867fcf1.FRME",
+            "description": "Fusion Menu"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -119,37 +119,37 @@\n AAAAAAAAAAAAAAAD\n-+AAAA\n+9euFI\n AAAAAAAAAAAAAAAA\n",
+            "filename": "33181a6b.FRME",
+            "description": "Fusion Link Screen"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -1759,13 +1759,13 @@\n ACAM\n-EfQyR\n+FgAAB\n AxtE\n@@ -4346,13 +4346,13 @@\n AIAQ\n-SUTpU\n+WgAAE\n DJ+t\n@@ -6903,13 +6903,13 @@\n ACAM\n-Eb981\n+FgAAB\n A8oc\n@@ -9105,12 +9105,12 @@\n AgBB\n-F+h0\n+YAAA\n QPfg\n",
+            "filename": "2f972d0c.FRME",
+            "description": "Base HUD (Beam/Visor Squares)"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -119,37 +119,37 @@\n AAAAAAAAAAAAAAAD\n-+AAAA\n+9euFI\n AAAAAAAAAAAAAAAA\n@@ -1447,20 +1447,20 @@\n AAAAAAAM\n-FesS\n+GPWJ\n C1hje9QK\n@@ -5982,17 +5982,17 @@\n EHYAAAAQ\n-R\n+V\n 8AAAAAAA\n@@ -6247,34 +6247,34 @@\n AAAEJAAABB2AAAAE\n-De\n+Ev\n AAAAAAAAvyAAAD+A\n@@ -6802,10 +6802,10 @@\n AAAw\n-U0\n+Ya\n AAAA\n@@ -6990,25 +6990,25 @@\n AAAAAC/EW4mP\n-4\n+8\n AAAAAAAAAAAA\n@@ -7163,10 +7163,10 @@\n AAAE\n-DS\n+Ep\n AAAA\n@@ -7426,36 +7426,36 @@\n MzNQwQAAEHYAAAAw\n-Uk9E\n+YSei\n T3Vt42/TSM+P4AAA\n@@ -7983,13 +7983,13 @@\n AAAE\n-Dlhd4\n+Eywu8\n 91be\n@@ -8249,17 +8249,17 @@\n QdgAAABB\n-I\n+Y\n sLvPdW3j\n@@ -8707,11 +8707,11 @@\n AAAM\n-FNA\n+GGg\n AA1h\n@@ -9250,10 +9250,10 @@\n AAAQ\n-N4\n+S8\n AADW\n@@ -9514,17 +9514,17 @@\n EHYAAAAQ\n-R\n+V\n 8AADWGN7\n@@ -9707,25 +9707,25 @@\n Q1hje9vzFuJj\n-+\n+/\n AAAAAAAAAAAA\n@@ -9880,11 +9880,11 @@\n AAAB\n-A0g\n+BKQ\n AANY\n@@ -10146,17 +10146,17 @@\n EHYAAAAQ\n-S\n+W\n LC7z3Vt4\n@@ -10424,13 +10424,13 @@\n AAAB\n-A5YXe\n+BMsLv\n PdW3\n@@ -10970,12 +10970,12 @@\n AAAw\n-Uk9E\n+YSei\n T3Vt\n@@ -11425,10 +11425,10 @@\n AADB\n-TQ\n+ho\n AAAA\n@@ -11967,10 +11967,10 @@\n AAAE\n-De\n+Ev\n AAAA\n@@ -12231,17 +12231,17 @@\n BB2AAAAE\n-E\n+F\n fAAAAAAA\n@@ -12425,25 +12425,25 @@\n AAAAAL8xbiY/\n-g\n+w\n AAAAAAAAAAAA\n@@ -12594,18 +12594,18 @@\n gAAAAAAQ\n-NI\n+Sk\n AAAAAAAC\n@@ -12863,17 +12863,17 @@\n BB2AAAAE\n-E\n+F\n iwu891bc\n@@ -13142,13 +13142,13 @@\n AAAQ\n-OWF3j\n+TLC7z\n 3Vtw\n@@ -13687,13 +13687,13 @@\n AAAM\n-FJPRE\n+GEnok\n 91bc\n@@ -13961,18 +13961,18 @@\n AAABAAPB\n-Ug\n+iQ\n AAAAAAAL\n@@ -14239,10 +14239,10 @@\n EABM\n-FS\n+GJ\n AAA1\n@@ -14518,10 +14518,10 @@\n QAFw\n-VI\n+Yk\n AADW\n@@ -14794,20 +14794,20 @@\n AAAAQAFw\n-U49E\n+Ycei\n T3Vt43Ar\n@@ -15074,12 +15074,12 @@\n QAEw\n-U49E\n+Ycei\n T3Vt\n@@ -15353,12 +15353,12 @@\n AAPB\n-Tj0R\n+hx6J\n PdW3\n@@ -15548,18 +15548,18 @@\n 3vUCoAAA\n-/g\n+AA\n AAAAAAAA\n@@ -15595,13 +15595,9 @@\n AAAD\n-/pdSE\n++\n AAAA\n@@ -15604,33 +15604,37 @@\n AAAAAAAAAAAAAAAA\n-A\n+/6XUh\n AABUWFBOdGV4dHBh\n@@ -16353,12 +16353,12 @@\n AADB\n-agUg\n+lwKQ\n tYY3\n@@ -16625,12 +16625,12 @@\n AADB\n-Zv25\n+lX7c\n Pgym\n",
+            "filename": "128e283d.FRME",
+            "description": "File Select Menu"
+        },
+        {
+            "type": "ReplaceFile",
+            "replacementFile": "d411b6bb.TXTR",
+            "filename": "d411b6bb.TXTR",
+            "description": "Title Screen \"Press Start\" Text"
+        },
+        {
+            "type": "ReplaceFile",
+            "replacementFile": "a078a2e8.TXTR",
+            "filename": "a078a2e8.TXTR",
+            "description": "Retro Studios Logo"
+        },
+        {
+            "type": "ReplaceFile",
+            "replacementFile": "556f0c4a.TXTR",
+            "filename": "556f0c4a.TXTR",
+            "description": "Nintendo Logo"
+        },
+        {
+            "type": "ReplaceFile",
+            "replacementFile": "32aeaaae.TXTR",
+            "filename": "32aeaaae.TXTR",
+            "description": "Dolby Logo"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -3642,12 +3642,12 @@\n d45P\n-v7fY\n+ynqQ\n QAAA\n@@ -3909,12 +3909,12 @@\n 6sBA\n-mzwC\n+kAAA\n QQiG\n",
+            "filename": "f176a9d5.FRME",
+            "description": "Scan Visor Flat HUD (scan gauge)"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -2120,36 +2120,36 @@\n VVYJBIAAAP1nf/D+\n-AAAA\n+zMzM\n AAAAAAAAAAAAAAAA\n@@ -4410,35 +4410,35 @@\n gAAAAAAAAAAA\n-AAAAAA/gAAA\n+L/MzM0/szMz\n AAAAAAAAAAAA\n@@ -4438,33 +4438,33 @@\n AAAAAAAAAAAP4AAA\n-A\n+I\n AAAAAAAAAAAAAAAD\n@@ -4456,36 +4456,36 @@\n AAAAAAAAAAAAAAD+\n-AAAA\n+UeuE\n AAAAAAAAAAAAAAAA\n@@ -13095,33 +13095,33 @@\n AAwI\n-TNgb8WUTtBA73kP3YVRL6NIEs\n+J4I78Q9uBBAozoP1mZmj9MzM0\n AAAA\n@@ -13133,25 +13133,25 @@\n Sz92FUQAAAAA\n-A\n+g\n AAAAAAAAAA/g\n@@ -13141,36 +13141,36 @@\n AAAAgAAAAAAAAAA/\n-gAAA\n+jMzN\n AAAAAAAAAAAAAAAA\n@@ -13585,12 +13585,12 @@\n WsJB\n-PbaS\n+Dkju\n AAAA\n@@ -13773,12 +13773,12 @@\n lw1A\n-mX3D\n+gAAA\n AAAA\n",
+            "filename": "e47cd0dc.FRME",
+            "description": "Scan Visor HUD (energy bar)"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -1757,34 +1757,34 @@\n gAAAP4AAAAAAAAIA\n-AA\n+v2\n AAAAAAAAAAAAAAP4\n@@ -1774,33 +1774,33 @@\n 2AAAAAAAAAAAAAAP\n-4\n+0\n AAAAAAAAAAAAAAAA\n@@ -11484,34 +11484,34 @@\n AAAA/gAAAAAAAAgA\n-AA\n+/Q\n AAAAAAAAAAAAAA+Y\n@@ -11513,12 +11513,12 @@\n AAA+\n-Y1P4\n+Kn76\n AAAA\n",
+            "filename": "bf687554.FRME",
+            "description": "Morph Ball HUD"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -120,36 +120,36 @@\n AAAAAAAAAAAAAAD+\n-AAAA\n+PXCk\n AAAAAAAAAAAAAAAA\n@@ -2462,38 +2462,38 @@\n 4AAAD+AAAAAAAACA\n-AAAAAA\n+MApmZo\n AAAAAAAAAAD+AAAA\n@@ -2479,33 +2479,33 @@\n ApmZoAAAAAAAAAAD\n-+\n+9\n AAAAAAAAAAAAAAAA\n@@ -3736,12 +3736,12 @@\n AAME\n-stVn\n+uTvL\n Afmk\n@@ -3910,38 +3910,38 @@\n 4AAAD+AAAAAAAACA\n-AAAAAA\n+EApmZo\n AAAAAAAAAAD+AAAA\n@@ -3927,33 +3927,33 @@\n ApmZoAAAAAAAAAAD\n-+\n+9\n AAAAAAAAAAAAAAAA\n@@ -6064,14 +6064,14 @@\n VYUD\n-W\n+G\n YS8/\n-g\n+Q\n AAAA\n@@ -8495,35 +8495,35 @@\n AAAAIAAAAAAAAAAA\n-AAA\n+C/o\n AAAP4AAAAAAAAAAA\n@@ -8545,36 +8545,36 @@\n AAAAAAAAAAAAAAA/\n-gAAA\n+j1wp\n AAAAAAAAAAAAAAAA\n@@ -16887,17 +16887,17 @@\n AAAAAABD\n-+\n+9\n AAAA/gAA\n",
+            "filename": "b10e1dcd.FRME",
+            "description": "Combat Visor HUD"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -120,36 +120,36 @@\n AAAAAAAAAAAAAAD+\n-AAAA\n+PXCk\n AAAAAAAAAAAAAAAA\n",
+            "filename": "b101fa1d.FRME",
+            "description": "Pause Menu Controls"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -1956,33 +1956,33 @@\n AAAAAAAAAAAAAAD+\n-A\n+g\n AAAAAAAAAAAAAAAA\n@@ -2247,21 +2247,21 @@\n 93wRLHdD\n-9ugPE\n+8+zZI\n AAAAAAAA\n@@ -2525,12 +2525,12 @@\n blo+\n-Xb22\n+MWSU\n AAAA\n@@ -2799,13 +2799,13 @@\n NuWj\n-5dvbY\n+4xZJQ\n AAAA\n@@ -3081,20 +3081,20 @@\n d8ESx3Q/\n-boDx\n+Ps2S\n AAAAAAAA\n@@ -3366,21 +3366,21 @@\n 3fBEsd0P\n-26A8Q\n+z7Nkg\n AAAAAAAA\n@@ -3627,17 +3627,17 @@\n JQAAAAQS\n-k\n+0\n Qfb4AD3f\n@@ -3646,13 +3646,13 @@\n 7qBP\n-a/M4g\n+YyjkA\n AAAA\n@@ -3995,19 +3995,19 @@\n AAAAAAAg\n-AAA\n+DAq\n AAAAAAAA\n@@ -5754,35 +5754,35 @@\n 4AAAD+AAAAAAAACA\n-AAA\n+MCo\n AAAAAAAAAAAAAD+A\n",
+            "filename": "97ff54de.FRME",
+            "description": "Map Screen UI"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -120,36 +120,36 @@\n AAAAAAAAAAAAAAD+\n-AAAA\n+PXCk\n AAAAAAAAAAAAAAAA\n@@ -18891,17 +18891,17 @@\n avQRe55T\n-+\n+9\n AAAAAAAA\n@@ -22905,33 +22905,33 @@\n VVWCQSAAAD9Z4B4/\n-g\n+Q\n AAAAAAAAAAAAAAAA\n",
+            "filename": "6352720c.FRME",
+            "description": "Pause Menu"
+        },
+        {
+            "type": "Base64BinaryDiffPatch",
+            "diff": "@@ -120,36 +120,36 @@\n AAAAAAAAAAAAAAD+\n-AAAA\n+PXCk\n AAAAAAAAAAAAAAAA\n@@ -1771,12 +1771,12 @@\n AAwT\n-k4Yj\n+hrlT\n +sew\n@@ -1786,29 +1786,29 @@\n axHP\n-3AtSb6xNj8\n+zQh976E6LA\n AAAAAP\n-rE2Pz\n+oTosD\n 9wLU\n@@ -2053,17 +2053,17 @@\n QYAAAADB\n-Z\n+W\n P+8QACP7\n@@ -2061,33 +2061,33 @@\n WP+8QACP7z85Wik/\n-g\n+Q\n AAAAAAAAAAAAAAAA\n@@ -2255,21 +2255,21 @@\n xev33I2j\n-9ds9A\n+8mRtw\n AAAAAPwA\n@@ -2720,17 +2720,17 @@\n AAMA\n-X\n+n\n rC49joZA\n PiZH\n@@ -2729,14 +2729,14 @@\n joZA\n-PiZHeD\n+vbNxET\n +mRu\n@@ -2742,17 +2742,17 @@\n uEAAAAAv\n-0\n+4\n AAAAAAAA\n@@ -3486,11 +3486,11 @@\n ABBO\n-Thi\n+GuV\n P6x7\n@@ -3501,28 +3501,28 @@\n rEc/\n-cC1JPrE2Pw\n+NCH3PoTosA\n AAAAC+\n-sTY/\n+hOiw\n P3At\n@@ -3685,20 +3685,20 @@\n Xr999/k/\n-XbPQ\n+Jkbc\n AAAAAL8A\n@@ -4153,17 +4153,17 @@\n AABA\n-F\n+J\n BznPY6FN\n L72t\n@@ -4162,14 +4162,14 @@\n Y6FN\n-L72tOo\n+AAAAAA\n /pkb\n@@ -4171,25 +4171,25 @@\n A/pkbhAAAAAD\n-9\n++\n AAACAAAAAP8A\n@@ -4437,17 +4437,17 @@\n QYAAAABB\n-Y\n+V\n 899QACP7\n@@ -4453,17 +4453,17 @@\n 7z85Wik/\n-g\n+Q\n AAAAAAAA\n@@ -9533,17 +9533,17 @@\n VUDWYS8/\n-g\n+Q\n AAAAAAAA\n@@ -19363,21 +19363,21 @@\n xewAWN/D\n-+AAAA\n+9kkkk\n AAAAAAAA\n",
+            "filename": "143aca19.FRME",
+            "description": "Thermal Visor HUD"
+        }
+    ]
+}
