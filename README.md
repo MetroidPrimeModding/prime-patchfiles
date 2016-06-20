@@ -1,6 +1,6 @@
 # Prime Patchfiles
 
-A collection of Metroid Prime patchfiles for [https://github.com/Pwootage/prime-randomizer](https://github.com/Pwootage/prime-randomizer)
+A collection of Metroid Prime patchfiles for [https://github.com/Pwootage/prime-patcher](https://github.com/Pwootage/prime-patcher)
 
 This repository should have some nice examples if you're planning on writing a patchfile without using prime-randomizer.
 
