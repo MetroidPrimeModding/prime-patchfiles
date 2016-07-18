@@ -1,0 +1,36 @@
+{
+  "description": "Start with one of each item",
+  "author": "Pwootage",
+  "patches": [
+    {
+      "type": "ScriptObject",
+      "typ": "SpawnPoint",
+      "id": "0x171",
+      "filename": "b2701146.MREA",
+      "description": "Patch script object id 369 (SpawnPoint) used for Tallon item loss",
+      "objectPatch": {
+        "0x04": "0x1",
+        "0x05": "0x1",
+        "0x06": "0x1",
+        "0x09": "0x1",
+        "0x0A": "0x1",
+        "0x0B": "0x1",
+        "0x0C": "0x1",
+        "0x0D": "0x1",
+        "0x0E": "0x1",
+        "0x0F": "0x1",
+        "0x10": "0x1",
+        "0x11": "0x1",
+        "0x12": "0x1",
+        "0x13": "0x1",
+        "0x15": "0x1",
+        "0x16": "0x1",
+        "0x18": "0x1",
+        "0x19": "0x1",
+        "0x1A": "0x1",
+        "0x1B": "0xe",
+        "0x1F": "0x1"
+      }
+    }
+  ]
+}
