@@ -1,6 +1,6 @@
 {
     "description": "Metroid Prime Widescreen Hack",
-    "author": "Parax",
+    "author": "Aruki",
     "patches": [
         {
             "type": "BinaryPatch",

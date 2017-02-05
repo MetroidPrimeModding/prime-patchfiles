@@ -1,6 +1,6 @@
 {
   "description": "Replaces the suits in Metroid Prime 1 with the suits from Metroid Prime 2",
-  "author": "Parax",
+  "author": "Aruki",
   "patches": [
     {
       "type": "PakfileList",
